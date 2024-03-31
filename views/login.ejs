@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Game Reviews">
+<meta name="keywords" content="Review,Game,Blog">
+<meta name="author" content="Büşra Özcabı">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bugcritic-Giriş Yap</title>
+<link rel="icon" href="image.png" type="image/icon type">
+<link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+      <div class="topnav">
+        <img class="image" src="/images/image.png" alt="logo">
+        <p class="navheader">Bugcritic</p>
+        <a class="active" href="main.ejs">Anasayfa</a>
+        <a href="login.ejs">Giriş Yap</a>
+        <a href="register.ejs">Hesap Oluştur</a>
+      </div>
+      <h2 class="loginheader">Giriş Yap</h2>
+<p class="loginheader">Lütfen Bugcritic hesap bilgilerinizi eksiksiz ve doğru bir şekilde giriniz.</p>
+<div class="container">
+  <form action="/login.ejs" method="POST">
+    <div class="row">
+      <h2 style="text-align:center">Bugcritic hesap bilgileri</h2>
+        <input class="log" type="text" name="username" placeholder="Kullanıcı Adı." required>
+        <input class="log" type="password" name="password" placeholder="Şifre." required>
+        <input class="log" type="submit" value="Giriş Yap">
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="register.ejs" style="color:white" class="btn">Hesap Oluştur</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+</body>
+</html>
